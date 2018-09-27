@@ -1,0 +1,31 @@
+.panel.contact.position-absolute.w-100.h-100.d-flex.justify-content-center.align-items-center
+    .container.mb-4.mb-md-5
+        .row.text-white
+            .col-12.col-lg-5.offset-lg-1.text-center.d-flex.flex-column.justify-content-center
+                .contact-email
+                    h2.text-uppercase.letter-spacing-2.monument-valley.font-weight-bold email
+                    p.lead.raleway: a(href="mailto:vikasraj1911@gmail.com").letter-spacing-2.text-white vikasraj1911@gmail.com
+                .contact-phone.mt-5
+                    h2.text-uppercase.letter-spacing-2.monument-valley.font-weight-bold phone
+                    p.lead.raleway: a(href="tel:+91-7529905454").letter-spacing-2.text-white +91-7529905454
+            .d-none.d-lg-block.col-lg-5
+                h2.text-center.text-uppercase.letter-spacing-2.mb-2.mb-md-4.monument-valley.font-weight-bold Say Hello...
+                form
+                    fieldset.mb-md-2
+                        .row
+                            .col-12.col-md-6
+                                label(for="name").w-100
+                                    small.d-block.raleway.text-uppercase.letter-spacing-2.mb-1 Name
+                                    input#name(type="text" name="Name" required).w-100.p-1.p-md-2
+                            .col-12.col-md-6
+                                label(for="email").w-100
+                                    small.d-block.raleway.text-uppercase.letter-spacing-2.mb-1 Email
+                                    input#email(type="email" name="Email" required valid).w-100.p-1.p-md-2
+                    fieldset.mb-md-2
+                        .row
+                            .col-12
+                                label(for="message").w-100
+                                    small.d-block.raleway.text-uppercase.letter-spacing-2.mb-1 Your Message
+                                    textarea#message(name="Message" required).w-100.p-1.p-md-2
+                    fieldset.text-center
+                        button(type="submit").text-uppercase.font-weight-bold.white.py-1.px-3.letter-spacing-2.pointer submit
