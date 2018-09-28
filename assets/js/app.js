@@ -33,7 +33,7 @@ const socialLinksArray = [
 const projectsArray = [
 	{
 		desc: "Startup base site",
-		img: "./assets/images/decode.png",
+		img: "./assets/images/decode.PNG",
 		link: "#Home",
 		code: "#"
 	},
